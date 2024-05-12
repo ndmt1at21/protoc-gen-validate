@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const {runNodeJs} = require("@bufbuild/protoplugin");
+const {protocGenValidate} = require("../dist/cjs/protoc-gen-validate.js");
+
+runNodeJs(protocGenValidate);

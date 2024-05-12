@@ -1,0 +1,31 @@
+{
+  "name": "protoc-gen-validate",
+  "version": "1.0.10",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndmt1at21/protoc-gen-validate"
+  },
+  "bin": {
+    "protoc-gen-validate": "bin/protoc-gen-validate"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "buf generate",
+    "build": "tsc --project tsconfig.json --outDir ./dist/cjs"
+  },
+  "author": "ndmt1at21",
+  "license": "ISC",
+  "dependencies": {
+    "@bufbuild/buf": "^1.31.0",
+    "@bufbuild/protobuf": "^1.9.0",
+    "@bufbuild/protoc-gen-es": "^1.9.0",
+    "@bufbuild/protoplugin": "^1.9.0",
+    "@connectrpc/connect": "^1.4.0",
+    "@connectrpc/protoc-gen-connect-es": "^1.4.0",
+    "@types/node": "^20.12.11",
+    "tsx": "^4.9.4",
+    "typescript": "^5.4.5",
+    "zod": "^3.23.8"
+  }
+}

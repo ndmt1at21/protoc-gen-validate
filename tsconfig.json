@@ -1,0 +1,13 @@
+{
+    "files": ["src/protoc-gen-validate.ts"],
+    "compilerOptions": {
+      "target": "es2017",
+      // We import the plugin's version number from package.json
+      "resolveJsonModule": true,
+      // This package is CommonJS
+      "verbatimModuleSyntax": false,
+      "module": "Node16",
+      "moduleResolution": "Node16",
+    }
+}
+  
